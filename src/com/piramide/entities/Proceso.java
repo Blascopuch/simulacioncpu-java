@@ -30,6 +30,10 @@ public class Proceso {
         return numCiclos;
     }
 
+    public void consume(){
+        this.numCiclos--;
+    }
+
     @Override
     public String toString() {
         return "Proceso{" +
